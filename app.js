@@ -1,7 +1,7 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-    res.write("Hello DevOps Micro Project");
+    res.write("Updated DevOps Pipeline");
     res.end();
 });
 
